@@ -1,0 +1,62 @@
+{
+  "name": "project-6-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "test": "jest",
+    "deploy-static": "npm run build && npm run export"
+  },
+  "dependencies": {
+    "@styled-icons/material-outlined": "^10.47.0",
+    "eslint-config-next": "13.3.4",
+    "next": "13.3.4",
+    "prop-types": "^15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.7",
+    "styled-components": "^5.3.10"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.8",
+    "@storybook/addon-interactions": "^7.0.8",
+    "@storybook/addon-links": "^7.0.8",
+    "@storybook/blocks": "^7.0.8",
+    "@storybook/nextjs": "^7.0.8",
+    "@storybook/react": "^7.0.8",
+    "@storybook/react-webpack5": "^7.0.2",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@types/node": "^20.2.4",
+    "@types/react": "^18.2.7",
+    "@types/styled-components": "^5.1.26",
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7",
+    "babel-plugin-styled-components": "^2.1.1",
+    "eslint": "^8.39.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-storybook": "^0.6.12",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "jest-styled-components": "^7.1.1",
+    "prettier": "^2.8.8",
+    "storybook": "^7.0.8",
+    "typescript": "^5.0.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:import/errors",
+      "plugin:import/typescript"
+    ]
+  }
+}
