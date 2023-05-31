@@ -1,10 +1,7 @@
-import { CloneMe } from '../../components/CloneMe';
-import * as Styled from './styles';
+import { Heading } from 'components/Heading';
 
-export function Home() {
-  return (
-    <Styled.Wrapper>
-      <CloneMe title="Clone-me" />
-    </Styled.Wrapper>
-  );
+function Home() {
+  return <Heading>Example</Heading>;
 }
+
+export default Home;

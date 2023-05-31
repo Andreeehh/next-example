@@ -16,6 +16,7 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 1.6rem;
     font-family: ${({ theme }) => theme.font.family.default};
   }
+
   h1, h2, h3, h4, h5, h6 {
     font-family: ${({ theme }) => theme.font.family.secondary};
     margin: ${({ theme }) => theme.spacings.large} 0;
@@ -26,11 +27,16 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   ul, ol {
-    margin: ${({ theme }) => theme.spacings.medium} 0;
-    padding: ${({ theme }) => theme.spacings.medium} 0;
+    margin: ${({ theme }) => theme.spacings.medium};
+    padding: ${({ theme }) => theme.spacings.medium};
   }
 
   a {
     color: ${({ theme }) => theme.colors.secondaryColor};
+  }
+
+  .table {
+    width: 100%;
+    overflow-y: auto;
   }
 `;
