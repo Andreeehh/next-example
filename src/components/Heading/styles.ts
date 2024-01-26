@@ -1,3 +1,5 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
-export const Title = styled.h1``;
+export const Wrapper = styled.div`
+  ${({ theme }) => css``}
+`;
