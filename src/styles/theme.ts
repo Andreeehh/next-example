@@ -1,8 +1,10 @@
 export const theme = {
   colors: {
-    primary: 'rgb(43, 38, 178)',
+    primary: 'rgb(6, 57, 112)',
+    primaryLight: 'rgb(171, 219, 227)',
     secondary: 'rgb(247, 38, 115)',
-    warning: 'rgb(247, 38, 115)',
+    secondaryLight: 'rgb(255, 200, 250)',
+    warning: 'rgb(247, 0, 91)',
     success: 'rgb(172, 243, 157)',
     info: 'rgb(85, 193, 255)',
     deepWhite: 'rgb(255, 255, 255)',
