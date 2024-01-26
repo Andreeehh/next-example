@@ -4,12 +4,12 @@ import { Heading, HeadingProps } from '.';
 export default {
   title: 'Heading',
   component: Heading,
-  args: {
-    children: 'O texto está escuro',
-  },
-  argTypes: {
-    children: { type: 'string' },
-  },
-} as Meta;
+} as Meta<HeadingProps>;
 
-export const Template: Story<HeadingProps> = (args) => <Heading {...args} />;
+export const Template: Story<HeadingProps> = (args) => {
+  return (
+    <div>
+      <Heading {...args} />
+    </div>
+  );
+};
