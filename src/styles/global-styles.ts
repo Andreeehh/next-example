@@ -15,7 +15,8 @@ export const GlobalStyles = createGlobalStyle`
   body {
     font-size: 1.6rem;
     font-family: ${({ theme }) => theme.font.family.default};
-    background: linear-gradient(to bottom right, #063970, #abdbe3);
+    background: ${({ theme }) =>
+      `linear-gradient(to bottom right, ${theme.colors.primary}, ${theme.colors.primaryLight})`};
   }
 
   h1, h2, h3, h4, h5, h6 {
